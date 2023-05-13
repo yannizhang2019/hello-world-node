@@ -18,4 +18,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/greeting', greetingRouter);
+
+console.log("hello starting")
 module.exports = app;
